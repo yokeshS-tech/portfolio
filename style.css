@@ -198,6 +198,19 @@ section{
     background:var(--main-color);
     color:var(--white-color);
 }
+
+#downloadBtn{
+    padding: 0 rem;
+    border-radius: .6rem;
+    padding: 0 .6rem;
+    color: var(--main-color);
+    background: var(--bg-color);
+}
+
+#downloadBtn:hover{
+    background: var(--main-color);
+    color: var(--bg-color);
+}
 .home .profession-container{
     position: absolute;
     top: 50%;
