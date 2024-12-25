@@ -59,13 +59,13 @@ ScrollReveal({
  ScrollReveal().reveal(' .home-content h1,.profile,.about-img img', { origin: 'left' });
  ScrollReveal().reveal('.about-content p,.about-content h3,.home-content p,.about-content .btn', { origin: 'right' });
 
- /*==== download cv ====*/
- document.getElementById("downloadBtn").addEventListener("click",
-    function() {
-        const filePath = "portfolio/yokesh_Web Developer resume.pdf";
-        const link = document.createElement("a");
-        link.href = filePath;
-        link.download = "yokesh_Web Developer resume.pdf";
-        link.click();
-    }
- );
+//  /*==== download cv ====*/
+//  document.getElementById("downloadBtn").addEventListener("click",
+//     function() {
+//         const filePath = "portfolio/yokesh_Web Developer resume.pdf";
+//         const link = document.createElement("a");
+//         link.href = filePath;
+//         link.download = "yokesh_Web Developer resume.pdf";
+//         link.click();
+//     }
+//  );
