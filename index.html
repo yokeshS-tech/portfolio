@@ -202,16 +202,18 @@
    <section class="contact" id="contact">
     <h2 class="heading">Contact<span> Me!</span></h2>
 
-    <form action="#">
+    <form  action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value="75316df5-698e-47c0-be07-0cd427e42442">
+
       <div class="input-box">
-        <input type="text" placeholder="Full name">
-        <input type="email" placeholder="Email address">
+        <input type="text" name="name" placeholder="Full name">
+        <input type="email" name="email" placeholder="Email address">
       </div>
       <div class="input-box">
-        <input type="number" placeholder="Mobile number">
-        <input type="text" placeholder="Email subject">
+        <input type="text" name="phone" placeholder="Mobile number">
+        <input type="text" name="Subject" placeholder="Email subject">
       </div>
-      <textarea name="" id="" cols="30" rows="10" placeholder="Your message"></textarea>
+      <textarea name="message" cols="30" rows="10" placeholder="Your message"></textarea>
       <input type="submit" value="Send Message" class="btn">
     </form>
    </section>
@@ -227,10 +229,15 @@
     </footer>
 
 
-<!-- scroll reveal -->
-<script src="https://unpkg.com/scrollreveal"></script>
 
     <!-- custom js -->
      <script src="script.js"></script>
+
+     <!-- scroll reveal -->
+      <script src="https://unpkg.com/scrollreveal"></script>
+
+
+    
+    
   </body>
 </html>
